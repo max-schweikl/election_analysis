@@ -37,6 +37,8 @@ The analysis of the election saw that:
 - The county in this congressional precinct with the largest voter turnount was:
     - Denver County, which generated 82.8% of the vote and 306,055 number of votes.
 
+![](Resources/election_results_snapshot.png)
+
 ## Election-Audit Summary
 By expanding the election audit to include voter turnount by county, we can further conclude where voter turnount may be high or low, and further target the necessary infrustructure and resources to ensure that there's equal opportunity for all citizens to have their voice heard in future elections.  While we have a distribution of percentage of votes by county compared against total votes cast, it would also be helpful to pull in total number of eligible voters by county, to see the compliance of votes cast against total eligible amount of votes that can be cast.  We would need to slightly alter our code to ensure a field such as "total_voters = 0" is initialized to track a total voter count, as well as ensure it's worked in to any further downstream lines of code.
 
